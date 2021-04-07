@@ -2,10 +2,6 @@
 import numpy.polynomial.polynomial as _Npp
 import numpy as np
 import matplotlib.pyplot as plt
-import nitime.algorithms as tsa
-import nitime.utils as utils
-from nitime.viz import winspect
-from nitime.viz import plot_spectral_estimate
 
 ####  Ken's build_signal   - allow for more variable oscillations.
 ####  neural oscillations aren't sinusoids, rather their periods
